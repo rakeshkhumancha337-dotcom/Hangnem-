@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hangnem - Crunchy Chips & Snacks</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f4f4; color: #333; }
+        header { background-color: #ff6b35; color: white; padding: 20px; text-align: center; }
+        .hero { background-image: url('https://via.placeholder.com/1200x400?text=Hangnem+Snacks'); background-size: cover; height: 400px; display: flex; align-items: center; justify-content: center; text-align: center; color: white; }
+        .hero h1 { font-size: 3em; margin: 0; }
+        .products { padding: 40px; text-align: center; }
+        .product-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; }
+        .product { background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+        .product img { width: 100%; height: 200px; object-fit: cover; }
+        .about { background-color: #fff; padding: 40px; text-align: center; }
+        footer { background-color: #333; color: white; text-align: center; padding: 20px; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Hangnem</h1>
+        <p>Crunchy Chips & Snacks for Every Craving</p>
+    </header>
+    
+    <section class="hero">
+        <div>
+            <h1>Satisfy Your Hangry Moments</h1>
+            <p>Discover bold flavors that hit the spot!</p>
+            <a href="#products" style="background: #ff6b35; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px;">Shop Now</a>
+        </div>
+    </section>
+    
+    <section id="products" class="products">
+        <h2>Our Snacks</h2>
+        <div class="product-grid">
+            <div class="product">
+                <img src="https://via.placeholder.com/250x200?text=Spicy+Chips" alt="Spicy Chips">
+                <h3>Spicy Hangnem Chips</h3>
+                <p>Fiery flavors for the bold. $2.99</p>
+            </div>
+            <div class="product">
+                <img src="https://via.placeholder.com/250x200?text=Cheese+Puffs" alt="Cheese Puffs">
+                <h3>Cheesy Puffs</h3>
+                <p>Creamy and crunchy. $3.49</p>
+            </div>
+            <div class="product">
+                <img src="https://via.placeholder.com/250x200?text=Sweet+Popcorn" alt="Sweet Popcorn">
+                <h3>Sweet Popcorn Mix</h3>
+                <p>Sweet and salty perfection. $1.99</p>
+            </div>
+        </div>
+    </section>
+    
+    <section class="about">
+        <h2>About Hangnem</h2>
+        <p>Founded in 2023, Hangnem is all about turning "hangry" into "happy" with premium, natural ingredients and innovative flavors. No artificial junk—just pure crunch!</p>
+    </section>
+    
+    <footer>
+        <p>&copy; 2023 Hangnem Snacks. All rights reserved. | Contact: info@hangnem.com</p>
+    </footer>
+</body>
+</html>
